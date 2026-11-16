@@ -6,5 +6,5 @@ orrxl4/sandbox.py - Runs a loader with No host access and a time limit.
 orrxl4/lua/lexer, parser, closure-compiling interpreter, restricted stdlib
 orrxl4/fastpaths.py - Verified native Rc4/xor shortcuts, Selected by ast fingerprint
 orrxl4/reconstruct.py  Removes comments and junk, renames obfuscated names & pretty-prints.
-orrxl4/pipeline.py     fetch -> peel -> reconstruct -> optional follow of HttpGet urls only! :3
-tests/                 python -m unittest discover -s tests -t .
+orrxl4/pipeline.py fetch -> peel -> reconstruct -> optional follow of HttpGet urls only! :3
+tests/python -m unittest discover -s tests -t.
